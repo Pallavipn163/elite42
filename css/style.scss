@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    background-color:grey;
+    padding:10px;
+    justify-content:flex-end;
+    li{
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover{
+                color:red;
+            }
+        }
+    }
+}
+
