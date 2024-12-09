@@ -3,63 +3,58 @@
   padding: 0;
 }
 
-ul.parent {
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
-  background-color: grey;
-  padding: 5px;
-}
-ul.parent li {
+.parent {
   position: relative;
-}
-ul.parent li a {
-  padding: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-}
-ul.parent li a:hover {
-  color: red;
-}
-
-.header {
-  background-image: url("../images/header1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 260px;
-}
-
-.content .products {
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.content .products li {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  background-color: #f0f0f0;
-}
-.content .products li button {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  border: none;
+  width: 400px;
+  height: 500px;
   background-color: grey;
-  color: #fff;
-  height: 24px;
+  top: 80px;
+  left: 450px;
 }
-.content .products li img {
-  width: 100px;
-  height: 100px;
+.parent .container {
   position: absolute;
-  bottom: 30px;
+  width: 400px;
+  height: 500px;
+}
+.parent .container h1 {
+  position: relative;
   left: 50px;
+  top: 26px;
+}
+.parent .container h2 {
+  position: relative;
+  left: 50px;
+  font-size: 15px;
+}
+.parent .container h3 {
+  left: 50px;
+  position: relative;
+  color: blue;
+}
+.parent .container input {
+  position: relative;
+  top: 10px;
+  left: 50px;
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.parent .container .first button {
+  position: relative;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  left: 50px;
+  font-size: 20px;
+  background-color: blue;
+  color: #FFF;
+}
+.parent .container .second button {
+  position: relative;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  left: 50px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
